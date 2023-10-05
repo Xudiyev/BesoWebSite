@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+/* main-section-whyBeso-start */
+.whyBesoContentSection {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.whyBesoContent{
+    width: 50%;
+    margin: auto;
+}
+.whyBesoContent h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.whyBesoIconcontent {
+    width: 71%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    gap: 188px;
+    padding-top: 95px;
+}
+
+.whyBesoContent p {
+    color: var(--gray-gray-450, #7F8285);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 32px;
+}
+
+.securityCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.securityCard h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.securityCard p {
+    color: var(--gray-gray-500, #76787A);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.designCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.designCard h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.designCard p {
+    color: var(--gray-gray-500, #76787A);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.userFriendlyCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.userFriendlyCard h3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.userFriendlyCard p {
+    color: var(--gray-gray-500, #76787A);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+
+/* main-section-whyBeso-end */
+
+
+
+@media only screen and (max-width: 1272px) {
+ 
+
+}
+
+@media only screen and (max-width: 1164px) {
+    .whyBesoContent {
+        width: 76%;
+        
+    }
+.whyBesoIconcontent {
+    width: 95%;
+    gap: 88px;
+
+}
+}
+
+@media only screen and (max-width: 1000px) {
+
+    
+
+}
+
+@media only screen and (max-width: 770px){
+ 
+}
+@media only screen and (max-width: 590px){
+    .whyBesoContent h1{
+        font-size: 46px;
+    }
+    .whyBesoIconcontent {
+        gap: 28px;
+    
+    }
+    .whyBesoIconcontent {
+        width: 71%;
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 0.5fr;
+        gap: 90px;
+        padding-top: 95px;
+    }
+    
+}
+@media only screen and (max-width:  330px){
+    .whyBesoContent h1{
+        font-size: 40px;
+    }
+
+}
+@media only screen and (max-width:  250px){
+    .whyBesoContent h1{
+        font-size: 33px;
+    }
+}
