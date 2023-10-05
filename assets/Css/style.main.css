@@ -14,17 +14,19 @@
 
 /* main-section-whyBeso-start */
 .whyBesoContentSection {
-    width: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: auto;
+    padding-top: 65px;
 }
 
 
 
-.whyBesoContent{
+.whyBesoContent {
     width: 50%;
     margin: auto;
 }
+
 .whyBesoContent h1 {
     color: #000;
     font-family: Inter;
@@ -140,45 +142,135 @@
     /* 162.5% */
 }
 
+.card {
+    transition: 0.5s;
+}
+
+/* whybesocontent animation-start */
+.whyBesoContentContainer .card {
+    transform: translateY(100%);
+    transition-delay: calc(.4s*var(--i));
+    margin-bottom: 20px;
+}
+
+.whyBesoIconcontent .card {
+    transform: translateY(100%);
+    transition-delay: calc(.4s*var(--i));
+    margin-bottom: 20px;
+}
+
+.whyBesoContentSection.show-animate .animate {
+    transform: translateX(0);
+}
+
+/* whybesocontent animation-end */
+
+/* How this app work section star */
+.informationAbputaAppHowThisWork{
+    width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding: 64px 0px;
+}
+
+.howThisAppWorkContent{
+width: 50%;
+margin: auto;
+}
+.howThisAppWorkContent h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 32px;
+
+}
+
+.howThisAppWorkContent p {
+    color: var(--gray-gray-450, #7F8285);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.informationAppIconAndImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 62px;
+    padding-top: 100px;
+}
+.informationIconsContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+}
+.informationIconsContent h3{
+    color: var(--gray-gray-1000, #0A0A0A);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+margin-top: 23px;
+padding-bottom: 23px;
+}
+.informationIconsContent p {
+    color: var(--gray-gray-500, #76787A);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 185.714% */
+}
+
+/* How this app work section end */
+
+
+
+
+
+
 
 /* main-section-whyBeso-end */
 
 
 
-@media only screen and (max-width: 1272px) {
- 
-
-}
+@media only screen and (max-width: 1272px) {}
 
 @media only screen and (max-width: 1164px) {
     .whyBesoContent {
         width: 76%;
-        
+
     }
-.whyBesoIconcontent {
-    width: 95%;
-    gap: 88px;
 
-}
-}
+    .whyBesoIconcontent {
+        width: 95%;
+        gap: 88px;
 
-@media only screen and (max-width: 1000px) {
-
-    
-
+    }
 }
 
-@media only screen and (max-width: 770px){
- 
-}
-@media only screen and (max-width: 590px){
-    .whyBesoContent h1{
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 770px) {}
+
+@media only screen and (max-width: 590px) {
+    .whyBesoContent h1 {
         font-size: 46px;
     }
+
     .whyBesoIconcontent {
         gap: 28px;
-    
+
     }
+
     .whyBesoIconcontent {
         width: 71%;
         margin: auto;
@@ -188,16 +280,18 @@
         gap: 90px;
         padding-top: 95px;
     }
-    
+
 }
-@media only screen and (max-width:  330px){
-    .whyBesoContent h1{
+
+@media only screen and (max-width: 330px) {
+    .whyBesoContent h1 {
         font-size: 40px;
     }
 
 }
-@media only screen and (max-width:  250px){
-    .whyBesoContent h1{
+
+@media only screen and (max-width: 250px) {
+    .whyBesoContent h1 {
         font-size: 33px;
     }
 }
