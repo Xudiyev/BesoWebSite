@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts-start */
+@font-face {
+    font-family: Inter;
+    src: url('../Fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+/* fonts-end */
+
+/* <!-- Section-with-header-content-start --> */
+#headerAndContentSection {
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    background: var(--black-black-blue-24, #001C3D);
+  
+}
+
+#headerAndContentContainer {
+    max-width: 85%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 0.7fr 4fr;
+}
+
+.headerContent {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    align-items: center;
+    padding-top: 39px;
+}
+
+.headerRightSideLinks ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 80px;
+}
+
+.headerRightSideLinks ul li a {
+    text-decoration: none;
+    color: var(--white-white, #FFF) ;
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.headerRightSideLinks ul li .down-icon {
+    padding-left: 4px;
+}
+/* BACKGROUND IMAGE IN HEADER SECTION Start*/
+.imgForDesignFirstSection {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.abstract-banner {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+/* BACKGROUND IMAGE IN HEADER SECTION End */
+
+.contentWithMobileImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 300px;
+    z-index: 2;
+    
+}
+
+.contentWithMobileImg-LeftSide {
+    position: relative;
+}
+
+.contentWithMobileImg-LeftSide .blur-left-side {
+    width: 162px;
+    height: 162px;
+    background: rgba(89, 89, 89, 0.30);
+    filter: blur(114px);
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+}
+
+
+.contentWithMobileImg-rightSide .blur-right-side {
+    width: 162px;
+    height: 162px;
+    background: rgba(89, 89, 89, 0.30);
+    filter: blur(114px);
+    position: absolute;
+    bottom: 100px;
+    left: 220px;
+}
+
+.contentWithMobileImg-rightSide .iphoneImageUnderHeader {
+padding-top:100px ;
+}
+
+
+.contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
+    width: 554px;
+    color: var(--white-white, #FFF);
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 42px;
+}
+
+.contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
+    width: 465px;
+    color: var(--white-white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    padding-bottom: 42px;
+}
+
+.contentWithMobileImg-LeftSide-androidAndAppleButtons button {
+    width: 206px;
+    height: 61px;
+    border-radius: 5px;
+    border: 1px solid var(--black-black-blue-24, #001C3D);
+    background: var(--white-white, #FFF);
+}
+
+/* google-play-button-start */
+.google-play-icon {
+    font-size: 35px;
+}
+
+.apple-icon {
+    font-size: 35px;
+}
+
+.google-play-apple-button-Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.google-play-apple-button-word {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.google-play-apple-button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.google-play-apple-button:hover {
+    opacity: 0.8;
+}
+
+/* google-play-button-end */
+
+/* <!-- Section-with-header-content-end --> */
+
+
+
