@@ -22,6 +22,7 @@
 #tranding .tranding-slider {
     padding-top: 2rem;
     position: relative;
+    padding-bottom: 1rem;
 }
 
 @media (max-width:500px) {
@@ -52,7 +53,6 @@
     border-radius: 2rem;
     object-fit: cover;
 }
-
 
 
 
@@ -273,4 +273,15 @@
         margin: auto;
 
     }
+}
+
+.tranding-slider{
+    position: relative;
+}
+
+.blackScreen img{
+    position: absolute;
+    top: 21px;
+    left: 39.5%;
+    width: 21%;
 }
