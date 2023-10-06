@@ -142,41 +142,47 @@
     /* 162.5% */
 }
 
+/* main-section-whyBeso-end */
+
 .card {
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 /* whybesocontent animation-start */
 .whyBesoContentContainer .card {
-    transform: translateY(100%);
+    transform: translateY(700%);
     transition-delay: calc(.4s*var(--i));
     margin-bottom: 20px;
-}
+    overflow: hidden;
+    opacity: 0;
+} */
 
 .whyBesoIconcontent .card {
-    transform: translateY(100%);
     transition-delay: calc(.4s*var(--i));
     margin-bottom: 20px;
 }
 
 .whyBesoContentSection.show-animate .animate {
     transform: translateX(0);
+    overflow: visible;
+    opacity: 1;
 }
 
-/* whybesocontent animation-end */
+/* whybesocontent animation-end
 
 /* How this app work section star */
-.informationAbputaAppHowThisWork{
+.informationAbputaAppHowThisWork {
     width: 100%;
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        padding: 64px 0px;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    padding-top: 180px;
 }
 
-.howThisAppWorkContent{
-width: 50%;
-margin: auto;
+.howThisAppWorkContent {
+    width: 50%;
+    margin: auto;
 }
+
 .howThisAppWorkContent h1 {
     color: #000;
     font-family: Inter;
@@ -200,34 +206,40 @@ margin: auto;
 }
 
 
-.informationAppIconAndImage{
+.informationAppIconAndImage {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 62px;
     padding-top: 100px;
 }
-.informationIconsContent{
+
+.informationIconsContent {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 64px;
+    grid-template-columns: 0.4fr 0.4fr;
+    grid-column-gap: 65px;
+    grid-row-gap: 39px;
 }
-.informationIconsContent h3{
+
+.informationIconsContent h3 {
     color: var(--gray-gray-1000, #0A0A0A);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px; /* 177.778% */
-margin-top: 23px;
-padding-bottom: 23px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    /* 177.778% */
+    margin-top: 23px;
+    padding-bottom: 23px;
 }
+
 .informationIconsContent p {
     color: var(--gray-gray-500, #76787A);
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 185.714% */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 185.714% */
 }
 
 /* How this app work section end */
@@ -238,7 +250,7 @@ line-height: 26px; /* 185.714% */
 
 
 
-/* main-section-whyBeso-end */
+
 
 
 
@@ -257,7 +269,22 @@ line-height: 26px; /* 185.714% */
     }
 }
 
-@media only screen and (max-width: 1000px) {}
+@media only screen and (max-width: 1000px) {
+    .informationAppIconAndImage {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 62px;
+        padding-top: 100px;
+    }
+
+    .informationIconsContent {
+        display: grid;
+        grid-template-columns: 0.4fr 0.4fr;
+        grid-column-gap: 65px;
+        grid-row-gap: 39px;
+        justify-content: center;
+    }
+}
 
 @media only screen and (max-width: 770px) {}
 
@@ -281,11 +308,24 @@ line-height: 26px; /* 185.714% */
         padding-top: 95px;
     }
 
+    .howThisAppWorkContent {
+        width: 77%;
+        margin: auto;
+    }
+
 }
 
 @media only screen and (max-width: 330px) {
     .whyBesoContent h1 {
         font-size: 40px;
+    }
+
+    .informationIconsContent {
+        display: grid;
+        grid-template-columns: 0.4fr;
+        grid-column-gap: 65px;
+        grid-row-gap: 39px;
+        justify-content: center;
     }
 
 }

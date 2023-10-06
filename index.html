@@ -12,6 +12,15 @@
     <!-- Font-Awesome-Icon-cdn-end -->
     <link rel="stylesheet" href="assets/Css/style.css">
     <link rel="stylesheet" href="assets/Css/style.main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/Css/slider.css">
+
+    <!-- slick slider start -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- slick slider end -->
 </head>
 
 <body>
@@ -82,8 +91,8 @@
     </section>
     <!-- Section-with-header-content-end -->
     <!-- main-content-start -->
-    <main class="mainContent">
-        <section  class="whyBesoContentSection show-animate ">
+    <main class="mainContent ">
+        <section class="whyBesoContentSection  ">
             <div class="whyBesoContentContainer">
                 <div class="whyBesoContent ">
                     <h1 class="animate card" style="--i:0;">Why Beso?</h1>
@@ -121,7 +130,8 @@
 
             <div class="informationAppIconAndImage">
                 <div class="informationCImageContent">
-                    <img  src="assets/Images/informationAppSectionImage/iphone14.svg" alt="">
+                    <img style="width: 100%;" src="assets/Images/informationAppSectionImage/Frame 1321314556 (6).png"
+                        alt="">
                 </div>
                 <div class="informationIconsContent">
                     <div class=" ">
@@ -146,16 +156,93 @@
         </section>
         <!-- how does this app work section end -->
 
+        <!-- Screenshots section start with slick slider -->
+        <section  class="screenshotsSlickSliderContent" style="overflow: hidden;">
+            <div class="screenshotsContent">
+                <h1>Screenshots</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et d</p>
+            </div>
+            <!-- slider start -->
+            <section id="tranding">
+                <div class="container">
+                    <div class="swiper tranding-slider">
+                        <div class="swiper-wrapper">
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide ">
+                                <img style="object-fit: contain;" src="./assets/Images/slickSliderImages/Dashboard.svg"
+                                    alt="Tranding">
+
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <img style="object-fit: contain;" src="assets/Images/slickSliderImages/Get paid.svg"
+                                    alt="Tranding">
+
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <img style="object-fit: contain;" src="assets/Images/slickSliderImages/Get paid (1).svg" alt="Tranding">
+
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <img style="object-fit: contain;" src="assets/Images/slickSliderImages/Inventory.svg" alt="Tranding">
+
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+                            <div class="swiper-slide tranding-slide">
+                                <img style="object-fit: contain;" src="assets/Images/slickSliderImages/Pay.svg" alt="Tranding">
+
+                            </div>
+                            <!-- Slide-end -->
+                            <!-- Slide-start -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div style="padding-top: 170px; " class="tranding-slider-control">
+                    <div class="buttonsPrevandNextContentContainer">
+                        <div class="swiperButtonPrev">
+                            <img class=" swiper-button-prev " src="assets/Images/slickSliderImages/Frame 1321314572.svg" alt="">
+
+                        </div>
+                        <div class="swiperButtonNext">
+                            <img class="swiper-button-next" src="assets/Images/slickSliderImages/Frame 1321314573.svg" alt="">
+
+                        </div>
+                    </div>
+                    <!--               
+            <div class="swiper-pagination"></div> -->
+                </div>
+            </section>
+
+
+            <!-- slider end -->
+        </section>
+
+        <!-- Screenshots section start with slick end -->
+
+
+
+
     </main>
     <!-- main-content-end -->
 
 
 
-
-
-
-
     <script src="assets/Js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="assets/SlickSliderJs/slider.script.js"></script>
 </body>
 
 </html>
