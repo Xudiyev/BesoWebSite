@@ -290,7 +290,7 @@
     border-radius: 20px;
     background: var(--black-black-blue-24, #001C3D);
     padding: 60px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .leftsideWithButtonGetstarted {
@@ -643,7 +643,7 @@ padding-bottom: 54px;
 @media only screen and (max-width: 390px) {
 
     .firstBottomImage img {
-        max-width: 650%;
+        max-width: 610%;
         bottom: -60px;
         right: -10px;
     }

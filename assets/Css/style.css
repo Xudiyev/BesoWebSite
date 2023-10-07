@@ -66,6 +66,7 @@
 .headerRightSideLinks .hamburgerIcon{
 display: none;
 }
+
 /* <!-- Section-with-header-content-end --> */
 
 
@@ -123,6 +124,7 @@ display: none;
 .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
     padding-top: 100px;
     margin-left: 150px;
+    width: 50%;
 }
 
 
@@ -200,18 +202,24 @@ display: none;
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         padding-top: 100px;
         margin-left: 65px;
-        width: 100%;
+        width: 70%;
     }
 
 }
 @media only screen and (max-width: 1164px) {
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         margin-left: 15px;
-        width: 100%;
     }
 
 }
 @media only screen and (max-width: 1000px) {
+    .headerContent {
+        display: grid;
+        grid-template-columns: 0.2fr 1fr;
+        grid-template-rows: 0.2fr;
+        align-items: center;
+        padding-top: 39px;
+    }
 
     .contentWithMobileImg {
         display: grid;
@@ -221,10 +229,6 @@ display: none;
 
     }
 
-    .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
-        margin-left: 0px;
-        width: 100%;
-    }
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
       
@@ -239,6 +243,7 @@ display: none;
        grid-template-columns: 0.5fr 1fr;
        gap: 10px;
     }
+
 
 }
 @media only screen and (max-width: 770px){
@@ -271,6 +276,12 @@ display: none;
      .headerRightSideLinks .hamburgerIcon{
         display: block;
         }
+    .dropDownIcon{
+        position: relative;
+    }
+  
+   
+    
 }
 @media only screen and (max-width:  490px){
    

@@ -15,3 +15,13 @@ window.onscroll = () => {
         // }
     })
 }
+
+var menu = document.querySelector(".dropdownList")
+var openmenu = document.querySelector(".dropDownIcon")
+var close = document.querySelector(".dropDownIcon");
+
+openmenu.addEventListener('click',()=>{
+    menu.style.display="block";
+    menu.style.height="100px";
+    
+})
