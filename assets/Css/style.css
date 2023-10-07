@@ -66,6 +66,8 @@
 .headerRightSideLinks .hamburgerIcon{
 display: none;
 }
+/* <!-- Section-with-header-content-end --> */
+
 
 /* BACKGROUND IMAGE IN HEADER SECTION Start*/
 .imgForDesignFirstSection {
@@ -188,7 +190,6 @@ display: none;
 
 /* google-play-button-end */
 
-/* <!-- Section-with-header-content-end --> */
 
 
 
@@ -203,7 +204,6 @@ display: none;
     }
 
 }
-
 @media only screen and (max-width: 1164px) {
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         margin-left: 15px;
@@ -211,7 +211,6 @@ display: none;
     }
 
 }
-
 @media only screen and (max-width: 1000px) {
 
     .contentWithMobileImg {
@@ -242,7 +241,6 @@ display: none;
     }
 
 }
-
 @media only screen and (max-width: 770px){
     .headerRightSideLinks ul {
         display: flex;
@@ -309,5 +307,4 @@ display: none;
      }
   
 }
-
 /* responsive all content start */
