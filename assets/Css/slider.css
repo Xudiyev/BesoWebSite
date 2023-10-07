@@ -25,11 +25,6 @@
     padding-bottom: 1rem;
 }
 
-@media (max-width:500px) {
-    #tranding .tranding-slider {
-        height: 45rem;
-    }
-}
 
 .tranding-slide {
     width: 37rem;
@@ -48,7 +43,7 @@
 
 /* sekillerin razmeri */
 .tranding-slide .tranding-slide img {
-    width: 44rem;
+    width: 44rem !important;
     height: 42rem;
     border-radius: 2rem;
     object-fit: cover;
@@ -70,18 +65,7 @@
     justify-content: center;
 }
 
-.tranding-slider-control .swiper-button-prev {
-    width: 36px;
-    height: 36px;
-    left: 45% !important;
-}
 
-.tranding-slider-control .swiper-button-next {
-    width: 36px;
-    height: 36px;
-    left: 50.5% !important;
-    transform: translateX(-58%) !important;
-}
 
 .tranding-slider-control .slider-arrow {
     background: var(--white);
@@ -142,7 +126,22 @@
     line-height: normal;
 }
 
+.tranding-slider-control .swiper-button-prev {
+    width: 36px;
+    height: 36px;
+    left: 43.5% !important;
+    
+}
+
+.tranding-slider-control .swiper-button-next {
+    width: 36px;
+    height: 36px;
+    left: 50.5% !important;
+}
+
 /* Slider section end */
+
+
 
 /* media */
 @media only screen and (max-width: 1600px) {
@@ -150,14 +149,44 @@
         max-width: 80rem;
         margin: 0 auto;
     }
+    .blackScreen img{
+        position: absolute;
+        top: 25px!important;
+        left: 37%!important;
+        width: 26.2%!important;
+    }
+    
+    .tranding-slider-control .swiper-button-prev {
+      
+        left: 41.5% !important;
+        
+    }
 
 }
 
 @media only screen and (max-width: 1270px) {
     .container {
-        max-width: 71rem;
+        max-width: 65rem;
         margin: 0 auto;
     }
+    .blackScreen img{
+        position: absolute;
+        top: 20px!important;
+        left: 40.2%!important;
+        width: 19.8%!important;
+    }
+    .tranding-slide {
+        width: 37rem;
+        height: 25rem;
+        position: relative;
+    }
+       
+    .tranding-slider-control .swiper-button-prev {
+        
+        left: 40.5% !important;
+        
+    }
+    
 
 }
 
@@ -167,101 +196,131 @@
         margin: 0 auto;
     }
 
+   
+    .tranding-slide {
+        width: 37rem;
+        height: 30rem;
+        position: relative;
+    }
+
+  
+    .blackScreen img{
+        position: absolute;
+        top: 22px!important;
+        left: 37.5%!important;
+        width: 24.9%!important;
+    }
     .tranding-slider-control .swiper-button-prev {
-        width: 36px;
-        height: 36px;
-        left: 40% !important;
+        
+        left: 39.5% !important;
+        
     }
-
-    .tranding-slider-control .swiper-button-next {
-        width: 36px;
-        height: 36px;
-        left: 52.5% !important;
-        transform: translateX(-58%) !important;
-    }
-
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 976px) {
     .container {
         max-width: 51rem;
         margin: 0 auto;
     }
-
-}
-
-@media only screen and (max-width: 790px) {
-    .tranding-slide img {
-        width: 300%;
+    .tranding-slide {
+        width: 32rem;
+        height: 25rem;
+        position: relative;
     }
-
-    .screenshotsContent {
-        width: 70%;
-        margin: auto;
-    }
-
     .tranding-slider-control .swiper-button-prev {
-        left: 30% !important;
-    }
-
-    .tranding-slider-control .swiper-button-next {
-        left: 54.5% !important;
-        transform: translateX(-58%) !important;
+        
+        left: 38.5% !important;
+        
     }
 
 }
+
+@media only screen and (max-width: 796px) {
+  
+    .container {
+        max-width: 34rem;
+        margin: 0 auto;
+    }
+    .tranding-slide {
+        width: 32rem;
+        height: 17rem;
+        position: relative;
+    }
+    .blackScreen img{
+        position: absolute;
+        top: 23px!important;
+        left: 37.1%!important;
+        width: 26%!important;
+    }
+    .screenshotsContent h1 {
+        font-size: 40px;
+     }
+     .tranding-slider-control .swiper-button-prev {
+        
+        left: 32.5% !important;
+        
+    }
+}
+
 
 @media only screen and (max-width: 482px) {
-    .tranding-slide img {
-        width: 150%;
+   
+    .screenshotsContent h1 {
+        font-size: 37px;
+     }
+    .container {
+        max-width: 24rem;
+        margin: 0 auto;
     }
-
+    .tranding-slide {
+        width: 32rem;
+        height: 13rem;
+        position: relative;
+    }
+    .blackScreen img{
+        position: absolute;
+        top: 23px!important;
+        left: 36%!important;
+        width: 28%!important;
+    }
     .tranding-slider-control .swiper-button-prev {
-        left: 30% !important;
-        top: 0;
-
-    }
-
-    .tranding-slider-control .swiper-button-next {
-        left: 54.5% !important;
-        top: 0;
-
-    }
-
-    .screenshotsContent {
-        width: 90%;
-        margin: auto;
+        
+        left: 24.5% !important;
+        
     }
 
 }
 
 @media only screen and (max-width: 398px) {
 
-    .container {
-        max-width: 41rem;
-        margin: 0 auto;
-    }
-
-    .tranding-slider-control .swiper-button-prev {
-        left: 25% !important;
-        top: 0;
-    }
-
-    .tranding-slider-control .swiper-button-next {
-        left: 54.5% !important;
-        top: 0;
-
-    }
-
-    .screenshotsContent {
-        width: 90%;
-        margin: auto;
-
-    }
 
     .screenshotsContent h1 {
-       font-size: 42px;
+       font-size: 30px;
     }
+    .screenshotsContent p {
+        font-size: 20px;
+     }
+    .container {
+        max-width: 19rem;
+        margin: 0 auto;
+    }
+    .tranding-slide {
+        width: 32rem;
+        height: 11rem;
+        position: relative;
+    }
+    .blackScreen img{
+        position: absolute;
+        top: 26px!important;
+        left: 35%!important;
+        width: 30%!important;
+    }
+    .tranding-slider-control .swiper-button-prev {
+        
+        left: 19.5% !important;
+        
+    }
+    
 
 }
 @media only screen and (max-width: 256px) {

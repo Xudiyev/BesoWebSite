@@ -245,7 +245,7 @@
 /* How this app work section end */
 /* How this app work section  animation-start */
 .appcards{
-    transition: 1.5s;
+    transition: 1s;
 }
 .informationIconsContent .appcards {
     transform: translateY(100%);
@@ -321,9 +321,10 @@
 }
 
 
-.leftsideWithButtonGetstarted a button {
+.leftsideWithButtonGetstarted a {
     display: flex;
-    padding: 21px 43px;
+    width: 165px;
+    height: 58px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -338,7 +339,11 @@
     line-height: normal;
     cursor: pointer;
     margin-top: 12px;
+    text-decoration: none;
+    
+    
 }
+
 
 .firstBottomImage {
     position: relative;
@@ -522,6 +527,12 @@ padding-bottom: 54px;
         top: -61px;
 
     }
+    .footerContent {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 70px;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -536,6 +547,17 @@ padding-bottom: 54px;
         position: absolute;
         top: -61px;
         right: -80px;
+    }
+    .footerContent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 70px;
+        align-items: center;
+    }
+    .footerRightSideContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 30px;
     }
 }
 
@@ -609,6 +631,13 @@ padding-bottom: 54px;
         top: -61px;
         right: -84px;
     }
+    .footerRightSideContent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 30px;
+        gap: 50px;
+    }
+  
 }
 
 @media only screen and (max-width: 390px) {
@@ -623,6 +652,12 @@ padding-bottom: 54px;
         max-width: 650%;
         top: -61px;
         right: -87px;
+    }
+    .footerRightSideContent {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+        gap: 50px;
     }
 }
 
@@ -649,6 +684,7 @@ padding-bottom: 54px;
         max-width: 749%;
         top: -60px;
         right: -76px;
+        display: none;
     }
 
     .leftsideWithButtonGetstarted h1 {
@@ -668,6 +704,10 @@ padding-bottom: 54px;
 @media only screen and (max-width: 250px) {
     .whyBesoContent h1 {
         font-size: 33px;
+    }
+    .SectionWIthFullImageContentBackGround {
+       
+        padding: 15px;
     }
 
 }
