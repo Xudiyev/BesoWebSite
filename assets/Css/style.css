@@ -111,15 +111,7 @@ display: none;
 }
 
 
-.contentWithMobileImg-rightSide .blur-right-side {
-    width: 162px;
-    height: 162px;
-    background: rgba(89, 89, 89, 0.30);
-    filter: blur(114px);
-    position: absolute;
-    bottom: 100px;
-    left: 220px;
-}
+
 
 .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
     padding-top: 100px;
@@ -184,6 +176,7 @@ display: none;
 .google-play-apple-button {
     cursor: pointer;
     transition: 0.3s;
+    z-index: 5;
 }
 
 .google-play-apple-button:hover {
@@ -294,9 +287,7 @@ display: none;
         width: 100%;
         
     }
-    .contentWithMobileImg-rightSide .blur-right-side {
-       display: none;
-    }
+    
     .contentWithMobileImg-LeftSide .blur-left-side {
        display: none;
     }
