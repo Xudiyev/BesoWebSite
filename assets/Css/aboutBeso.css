@@ -63,6 +63,53 @@
 .headerRightSideLinks .hamburgerIcon {
     display: none;
 }
+/* responsive hamburger button start */
+.headerRightSideLinks {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+    flex-direction: row;
+
+}
+
+.dropdownList {
+    position: absolute;
+    right: 0;
+    z-index: 4;
+    margin-top: 10px;
+
+
+}
+
+.dropdownListContent{
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr;
+    gap: 20px;
+    background-color: #001C3D;
+     width: 220px;
+        border-radius: 7px;
+}
+
+.js-navbar-list li {
+    padding: 7px;
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+.js-navbar-list li a {
+    text-decoration: none;
+    color: var(--white-white, #ffffff);
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* responsive hamburger button end */
 
 /* <!-- Section-with-header-content-end --> */
 /* <!-- About beso app section start --> */

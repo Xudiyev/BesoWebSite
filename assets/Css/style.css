@@ -72,7 +72,6 @@
     .headerRightSideLinks{
         position: relative;
     }
-    
     .hidden{
         display: none;
         flex-direction: row;
@@ -88,12 +87,14 @@
     }
     .dropdownListContent{
         display: grid;
-        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr;
+        gap: 20px;
         background-color: #ffffff;
-        width: 100px;
+        width: 220px;
+        border-radius: 7px;
     }
     .js-navbar-list li {
-        padding: 5px;
+        padding: 7px;
         list-style: none;
         margin-right: 10px;
         
