@@ -9,6 +9,9 @@
     font-family: Inter;
     src: url('../Fonts/Inter-VariableFont_slnt\,wght.ttf');
 }
+/* .body{
+    position: relative;
+} */
 
 /* fonts-end */
 
@@ -310,3 +313,10 @@ display: none;
   
 }
 /* responsive all content start */
+
+
+/* hamburger */
+/* .dropdownList{
+    position: absolute;
+    right: 50px;
+} */
