@@ -55,6 +55,7 @@
     line-height: normal;
 
 }
+
 .headerRightSideLinks ul li i {
     font-size: 20px;
 
@@ -63,9 +64,53 @@
 .headerRightSideLinks ul li .down-icon {
     padding-left: 4px;
 }
-.headerRightSideLinks .hamburgerIcon{
-display: none;
+
+.headerRightSideLinks .hamburgerIcon {
+    display: none;
 }
+    /* responsive hamburger button start */
+    .headerRightSideLinks{
+        position: relative;
+    }
+    
+    .hidden{
+        display: none;
+        flex-direction: row;
+       
+    }
+    .dropdownList {
+        position: absolute;
+        right: 0;
+        z-index: 4;
+
+        
+    }
+    .dropdownListContent{
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        background-color: #ffffff;
+        width: 100px;
+    }
+    .js-navbar-list li {
+        padding: 5px;
+        list-style: none;
+        margin-right: 10px;
+        
+    }
+    
+    .js-navbar-list li a{
+        text-decoration: none;
+        color: var(--white-white, #040404);
+        font-family: inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    /* responsive hamburger button end */
+
+
+
 
 /* <!-- Section-with-header-content-end --> */
 
@@ -109,9 +154,6 @@ display: none;
     bottom: 100px;
     left: 120px;
 }
-
-
-
 
 .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
     padding-top: 100px;
@@ -185,11 +227,6 @@ display: none;
 
 /* google-play-button-end */
 
-
-
-
-
-
 /* responsive all content start */
 @media only screen and (max-width: 1272px) {
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
@@ -199,12 +236,14 @@ display: none;
     }
 
 }
+
 @media only screen and (max-width: 1164px) {
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         margin-left: 15px;
     }
 
 }
+
 @media only screen and (max-width: 1000px) {
     .headerContent {
         display: grid;
@@ -224,22 +263,24 @@ display: none;
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
-      
+
     }
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
         width: 100%;
-        
+
     }
+
     .contentWithMobileImg-LeftSide-androidAndAppleButtons {
-       display: grid;
-       grid-template-columns: 0.5fr 1fr;
-       gap: 10px;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        gap: 10px;
     }
 
 
 }
-@media only screen and (max-width: 770px){
+
+@media only screen and (max-width: 770px) {
     .headerRightSideLinks ul {
         display: flex;
         justify-content: end;
@@ -247,37 +288,39 @@ display: none;
         gap: 10px;
     }
 }
-@media only screen and (max-width: 644px){
-    .headerRightSideLinks ul li  {
+
+@media only screen and (max-width: 644px) {
+    .headerRightSideLinks ul li {
         display: none;
-       
+
     }
+
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
-      
+
     }
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
         width: 100%;
-        
+
     }
+
     .contentWithMobileImg-LeftSide-androidAndAppleButtons {
         display: grid;
-        grid-template-columns:  1fr;
+        grid-template-columns: 1fr;
         gap: 10px;
-     }
-     .headerRightSideLinks .hamburgerIcon{
-        display: block;
-        }
-    .dropDownIcon{
-        position: relative;
     }
-  
-   
-    
+
+    .headerRightSideLinks .hamburgerIcon {
+        display: block;
+    }
+
+
+
 }
-@media only screen and (max-width:  490px){
-   
+
+@media only screen and (max-width: 490px) {
+
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
         font-size: 45px;
@@ -285,28 +328,32 @@ display: none;
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
         width: 100%;
-        
+
     }
-    
+
     .contentWithMobileImg-LeftSide .blur-left-side {
-       display: none;
+        display: none;
     }
-  
+
 }
-@media only screen and (max-width:  220px){
+
+@media only screen and (max-width: 220px) {
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 60%;
         font-size: 33px;
-      
+
     }
-    
+
     .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
         width: 75%;
-        
+
     }
+
     .contentWithMobileImg-LeftSide-androidAndAppleButtons button {
         width: 155px;
-     }
-  
+    }
+
 }
+
 /* responsive all content start */
+

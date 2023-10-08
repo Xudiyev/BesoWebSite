@@ -16,12 +16,10 @@ window.onscroll = () => {
     })
 }
 
-var menu = document.querySelector(".dropdownList")
-var openmenu = document.querySelector(".dropDownIcon")
-var close = document.querySelector(".dropDownIcon");
+var hamburger = document.querySelector(".js-navbar-toogle")
+var dropDownList = document.querySelector(".dropdownList")
 
-openmenu.addEventListener('click',()=>{
-    menu.style.display="block";
-    menu.style.height="100px";
+hamburger.addEventListener('click',()=>{
+    dropDownList.classList.toggle("hidden")
     
 })
