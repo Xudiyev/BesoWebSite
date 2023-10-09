@@ -640,7 +640,7 @@ padding-bottom: 54px;
   
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 391px) {
 
     .firstBottomImage img {
         max-width: 610%;
@@ -658,6 +658,14 @@ padding-bottom: 54px;
         grid-template-columns: 1fr;
         padding-bottom: 30px;
         gap: 50px;
+    }
+    .userFriendlyCard h3 {
+        color: #000;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
     }
 }
 
