@@ -188,9 +188,7 @@ grid-template-rows: 0.2fr 0.4fr ;
     font-weight: 600;
     line-height: 30px;
 }
-.contentWithMobileImg-LeftSide-androidAndAppleButtons .ahref {
-color: #001C3D;   
-}
+
 .contentWithMobileImg-LeftSide-androidAndAppleButtons{
     display: flex;
     justify-content: center;
@@ -202,6 +200,8 @@ color: #001C3D;
     border-radius: 5px;
     border: 1px solid var(--black-black-blue-24, #001C3D);
     background: var(--white-white, #FFF);
+color: #001C3D;
+
 }
 
 /* google-play-button-start */
