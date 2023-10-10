@@ -188,7 +188,7 @@ grid-template-rows: 0.2fr 0.4fr ;
     font-weight: 600;
     line-height: 30px;
 }
-.contentWithMobileImg-LeftSide-androidAndAppleButtons a {
+.contentWithMobileImg-LeftSide-androidAndAppleButtons .ahref {
 color: #001C3D;   
 }
 .contentWithMobileImg-LeftSide-androidAndAppleButtons{
