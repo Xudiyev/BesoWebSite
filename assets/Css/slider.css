@@ -269,12 +269,12 @@
         font-size: 37px;
      }
     .container {
-        max-width: 24rem;
+        max-width: 28rem;
         margin: 0 auto;
     }
     .tranding-slide {
         width: 32rem;
-        height: 13rem;
+        height: 18rem;
         position: relative;
     }
     .blackScreen img{
@@ -301,12 +301,12 @@
         font-size: 20px;
      }
     .container {
-        max-width: 19rem;
+        max-width: 24rem;
         margin: 0 auto;
     }
     .tranding-slide {
         width: 32rem;
-        height: 11rem;
+        height: 17rem;
         position: relative;
     }
     .blackScreen img{
