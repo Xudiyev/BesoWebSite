@@ -145,6 +145,7 @@
 
 .contentWithMobileImg-LeftSide {
     position: relative;
+    margin-bottom: 270px;
 }
 
 .contentWithMobileImg-LeftSide .blur-left-side {
@@ -157,6 +158,11 @@
     left: 120px;
 }
 
+.contentWithMobileImg-rightSide{
+display: grid;
+grid-template-rows: 0.2fr 0.4fr ;
+
+}
 .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
     padding-top: 100px;
     margin-left: 150px;
@@ -165,7 +171,6 @@
 
 
 .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
-    width: 554px;
     color: var(--white-white, #FFF);
     font-family: Inter;
     font-size: 56px;
@@ -176,16 +181,18 @@
 }
 
 .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
-    width: 465px;
     color: var(--white-white, #FFF);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
-    padding-bottom: 42px;
 }
-
+.contentWithMobileImg-LeftSide-androidAndAppleButtons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
 .contentWithMobileImg-LeftSide-androidAndAppleButtons button {
     width: 206px;
     height: 61px;
@@ -239,12 +246,6 @@
 
 }
 
-@media only screen and (max-width: 1164px) {
-    .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
-        margin-left: 15px;
-    }
-
-}
 
 @media only screen and (max-width: 1000px) {
     .headerContent {
@@ -262,6 +263,10 @@
         z-index: 2;
 
     }
+    .contentWithMobileImg-LeftSide {
+        position: relative;
+        margin-bottom: 0px;
+    }
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
@@ -272,12 +277,23 @@
         width: 100%;
 
     }
-
+    .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
+        padding-top: 90px;
+        margin-left: 0px;
+        width: 50%;
+    }
     .contentWithMobileImg-LeftSide-androidAndAppleButtons {
         display: grid;
-        grid-template-columns: 0.5fr 1fr;
+        grid-template-columns: 0.2fr 1fr;
         gap: 10px;
     }
+    .contentWithMobileImg-LeftSide-androidAndAppleButtons button {
+        width: 206px;
+        height: 61px;
+        border-radius: 5px;
+        border: 1px solid var(--black-black-blue-24, #001C3D);
+        background: var(--white-white, #FFF);
+    }   
 
 
 }
@@ -317,8 +333,6 @@
         display: block;
     }
 
-
-
 }
 
 @media only screen and (max-width: 490px) {
@@ -335,6 +349,11 @@
 
     .contentWithMobileImg-LeftSide .blur-left-side {
         display: none;
+    }
+    .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
+        padding-top: 90px;
+        margin-left: 0px;
+        width: 75%;
     }
 
 }
