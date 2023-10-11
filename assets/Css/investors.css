@@ -137,7 +137,7 @@
 .languageListContent{
     display: grid;
     grid-template-rows: 0.2fr 0.2fr;
-    background-color: #ffffff;
+    background-color: #001C3D;
     width: 36px;
     height: 80px;
     border-radius: 7px;
@@ -151,7 +151,7 @@
 
 .js-language-list li a{
     text-decoration: none;
-    color: var(--white-white, #040404);
+    color: var(--white-white, #ffffff);
     font-family: inter;
     font-size: 16px;
     font-style: normal;
