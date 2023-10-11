@@ -111,6 +111,50 @@
 
 /* responsive hamburger button end */
 
+
+   /* responsive globus button start */
+   .headerRightSideLinks{
+    position: relative;
+}
+.hidden{
+    display: none;
+    flex-direction: row;
+   
+}
+.globusdownList {
+    position: absolute;
+    right: -8px;
+    z-index: 4;
+    margin-top: 0px;
+
+    
+}
+.languageListContent{
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr;
+    background-color: #ffffff;
+    width: 36px;
+    height: 80px;
+    border-radius: 7px;
+}
+.js-language-list li {
+    padding: 7px;
+    list-style: none;
+    margin-right: 10px;
+    
+}
+
+.js-language-list li a{
+    text-decoration: none;
+    color: var(--white-white, #040404);
+    font-family: inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* responsive globus button end */
+
 /* <!-- Section-with-header-content-end --> */
 /* <!-- About beso app section start --> */
 #aboutBesoSectionContainer {
