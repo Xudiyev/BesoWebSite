@@ -23,3 +23,13 @@ hamburger.addEventListener('click',()=>{
     dropDownList.classList.toggle("hidden")
     
 })
+
+// language dropdown
+var globus = document.querySelector(".js-language-toggle")
+var globusdownList = document.querySelector(".globusdownList")
+
+globus.addEventListener('click',()=>{
+    globusdownList.classList.toggle("hidden")
+    
+})
+
