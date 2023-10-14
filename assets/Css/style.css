@@ -430,6 +430,10 @@
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         width: 88%;
     }
+    .contentWithMobileImg-LeftSide {
+        position: relative;
+        margin-top: 0px;
+    }
 
 }
 
