@@ -278,7 +278,7 @@
 }
 
 .containerSectionWIthFullImage {
-    max-width: 90%;
+    max-width: 79%;
     margin: auto;
 
 }
@@ -384,7 +384,7 @@
 }
 
 .footerContainer {
-    max-width: 87%;
+    max-width: 78%;
     margin: auto;
 }
 
@@ -434,7 +434,7 @@
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28px;
     /* 155.556% */
 }
@@ -589,7 +589,7 @@
     }
 
     .howThisAppWorkContent {
-        width: 77%;
+        width: 100%;
         margin: auto;
     }
 
@@ -605,22 +605,28 @@
         padding: 14px 14px;
     }
 
+    .SectionWIthFullImageContentBackGround{
+        display: block;
+    }
+
     .firstBottomImage img {
         max-width: 350%;
         bottom: -60px;
         right: -100px;
+        display: none;
     }
 
     .secondTopImage img {
         max-width: 350%;
         top: -61px;
         right: -59px;
+        display: none;
     }
 
     .leftsideWithButtonGetstarted {
-        max-width: 70%;
+        max-width: 100%;
         display: grid;
-        grid-template-rows: 0.2fr 0.2fr 0.2fr;
+        grid-template-rows: 1fr;
         height: 100%;
         gap: 10px;
     }
@@ -677,6 +683,15 @@
         font-weight: 600;
         line-height: normal;
     }
+  
+    .informationIconsContent {
+        display: grid;
+        grid-template-columns: 0.7fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 39px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -684,13 +699,7 @@
         font-size: 40px;
     }
 
-    .informationIconsContent {
-        display: grid;
-        grid-template-columns: 0.4fr;
-        grid-column-gap: 65px;
-        grid-row-gap: 39px;
-        justify-content: center;
-    }
+   
 
     .firstBottomImage img {
         max-width: 750%;
