@@ -362,7 +362,7 @@
     
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 903px) {
     .headerRightSideLinks ul {
         display: flex;
         justify-content: end;
@@ -371,20 +371,19 @@
     }
 }
 
-@media only screen and (max-width: 699px) {
-    .headerRightSideLinks ul {
-        display: flex;
-        justify-content: end;
-        list-style: none;
-        gap: 7px;
-    }
-}
-
-@media only screen and (max-width: 644px) {
+@media only screen and (max-width: 750px) {
+  
     .headerRightSideLinks ul li {
         display: none;
 
     }
+    .headerRightSideLinks .hamburgerIcon {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 644px) {
+  
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
@@ -402,9 +401,7 @@
         gap: 10px;
     }
 
-    .headerRightSideLinks .hamburgerIcon {
-        display: block;
-    }
+   
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         width: 88%;
     }
