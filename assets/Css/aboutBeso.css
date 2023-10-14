@@ -37,10 +37,10 @@
     display: flex;
     justify-content: end;
     list-style: none;
-    gap: 80px;
+    gap: 55px;
 }
 
-.headerRightSideLinks ul li a  {
+.headerRightSideLinks ul li a {
     text-decoration: none;
     color: #001C3D;
     font-family: inter;
@@ -62,7 +62,10 @@
 
 .headerRightSideLinks .hamburgerIcon {
     display: none;
+    margin-top: 2px;
+    margin-right: 5px;
 }
+
 /* responsive hamburger button start */
 .headerRightSideLinks {
     position: relative;
@@ -83,13 +86,14 @@
 
 }
 
-.dropdownListContent{
+.dropdownListContent {
     display: grid;
     grid-template-rows: 0.2fr 0.2fr 0.2fr;
-    gap: 20px;
+    gap: 10px;
     background-color: #001C3D;
-     width: 220px;
-        border-radius: 7px;
+    width: 220px;
+    border-radius: 7px;
+    padding: 10px 0px;
 }
 
 .js-navbar-list li {
@@ -112,39 +116,42 @@
 /* responsive hamburger button end */
 
 
-   /* responsive globus button start */
-   .headerRightSideLinks{
+/* responsive globus button start */
+.headerRightSideLinks {
     position: relative;
 }
-.hidden{
+
+.hidden {
     display: none;
     flex-direction: row;
-   
+
 }
+
 .globusdownList {
     position: absolute;
     right: -8px;
     z-index: 4;
-    margin-top: 0px;
+    top: 36px;
 
-    
 }
-.languageListContent{
+
+.languageListContent {
     display: grid;
     grid-template-rows: 0.2fr 0.2fr;
     background-color: #001C3D;
-    width: 36px;
+    width: 47px;
     height: 80px;
     border-radius: 7px;
-}
-.js-language-list li {
-    padding: 7px;
-    list-style: none;
-    margin-right: 10px;
-    
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
 }
 
-.js-language-list li a{
+.js-language-list li {
+    list-style: none;
+}
+
+.js-language-list li a {
     text-decoration: none;
     color: var(--white-white, #ffffff);
     font-family: inter;
@@ -153,6 +160,7 @@
     font-weight: 500;
     line-height: normal;
 }
+
 /* responsive globus button end */
 
 /* <!-- Section-with-header-content-end --> */
@@ -329,7 +337,15 @@
         gap: 45px;
     }
 }
+
 @media only screen and (max-width: 840px) {
+    .headerRightSideLinks ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        gap: 15px;
+    }
+
     .ourTeamCardContent {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -354,6 +370,7 @@
         margin-top: 95px;
 
     }
+
     .leftSideContent p {
         color: #585858;
         font-family: Inter;
@@ -362,6 +379,15 @@
         font-weight: 500;
         line-height: 32px;
         padding-bottom: 43px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .headerRightSideLinks ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        gap: 7px;
     }
 }
 
@@ -383,15 +409,17 @@
         gap: 20px;
         margin-top: 100px;
     }
+
     .card-body h4 {
         font-size: 35px;
         padding-bottom: 8px;
     }
+
     .card-body .card-text {
         font-size: 27px;
         padding-bottom: 15px;
     }
-    
+
     .card-body .card-second-text {
         font-size: 23px;
     }
