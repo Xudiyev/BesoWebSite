@@ -397,6 +397,32 @@
         line-height: 32px;
         padding-bottom: 43px;
     }
+    #aboutBesoSectionContainer {
+        max-width: 90%;
+        margin: auto;
+    }
+    /* text font size */
+
+    .leftSideContent h1 {
+        color: var(--black-black-blue-24, #001C3D);
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .leftSideContent p {
+        color: #585858;
+        font-family: Inter;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        padding-bottom: 0px;
+        padding-top: 25px;
+    }
 }
 
 
@@ -444,27 +470,7 @@
         font-size: 23px;
     }
 
-    /* text font size */
-
-    .leftSideContent h1 {
-        color: var(--black-black-blue-24, #001C3D);
-        font-family: Inter;
-        font-size: 45px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-
-    }
-
-    .leftSideContent p {
-        color: #585858;
-        font-family: Inter;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 32px;
-        padding-bottom: 0px;
-    }
+    
 }
 
 @media only screen and (max-width: 220px) {}
