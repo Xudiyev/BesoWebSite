@@ -19,7 +19,7 @@
 }
 
 #headerAndContentContainer {
-    max-width: 85%;
+    max-width: 75%;
     height: 100%;
     margin: auto;
     display: grid;
@@ -62,7 +62,7 @@
 
 .headerRightSideLinks .hamburgerIcon {
     display: none;
-    margin-top: 2px;
+    margin-top: 4px;
     margin-right: 5px;
 }
 
@@ -166,14 +166,13 @@
 /* <!-- Section-with-header-content-end --> */
 /* <!-- About beso app section start --> */
 #aboutBesoSectionContainer {
-    max-width: 85%;
+    max-width: 75%;
     margin: auto;
 }
 
 #aboutBesoSectionContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 202px;
     align-items: center;
     margin-top: 95px;
 
@@ -201,11 +200,15 @@
     font-weight: 500;
     line-height: 24px;
     /* 126.316% */
-    padding-bottom: 20px
+    padding-top: 35px
 }
 
+.rightSideContent{
+    display: flex;
+    justify-content: end;
+}
 .rightSideContent img {
-    width: 65%;
+    width: 75%;
 
 }
 
@@ -224,7 +227,7 @@
 }
 
 #ourTeamCardSection {
-    max-width: 83%;
+    max-width: 75%;
     margin: auto;
 }
 
@@ -260,7 +263,11 @@
     gap: 16px;
     margin-top: 100px;
 }
-
+.ourTeamCardContent .card {
+    border-radius: 6px;
+border: 1px solid #F0F0F0;
+background: var(--white-white, #FFF);
+}
 .ourTeamCardContent .card img {
     width: 100%;
     padding-bottom: 24px;
@@ -337,15 +344,16 @@
         gap: 45px;
     }
 }
-
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 904px){
     .headerRightSideLinks ul {
         display: flex;
         justify-content: end;
         list-style: none;
-        gap: 15px;
-    }
+        gap: 20px;
+    }    
+} 
 
+@media only screen and (max-width: 840px) {
     .ourTeamCardContent {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -355,6 +363,11 @@
 }
 
 @media only screen and (max-width: 770px) {
+    .ourTeamCardMeetOurTeamContent {
+        max-width: 100%;
+        margin: auto;
+    }
+
     .headerRightSideLinks ul {
         display: flex;
         justify-content: end;
@@ -365,7 +378,7 @@
     #aboutBesoSectionContent {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 202px;
+        gap: 50px;
         align-items: center;
         margin-top: 95px;
 
@@ -391,7 +404,7 @@
     }
 }
 
-@media only screen and (max-width: 644px) {
+@media only screen and (max-width: 730px) {
     .headerRightSideLinks ul li {
         display: none;
 
