@@ -8,6 +8,12 @@
 @font-face {
     font-family: Poppins;
     src: url('../Fonts/Poppins/Poppins-Bold.ttf');
+
+}
+@font-face {
+    font-family: Poppins-500;
+    src: url('../Fonts/Poppins/Poppins-Medium.ttf');
+
 }
 
 @font-face {
@@ -24,7 +30,7 @@
 }
 
 #headerAndContentContainer {
-    max-width: 85%;
+    max-width: 75%;
     height: 100%;
     margin: auto;
     display: grid;
@@ -172,7 +178,7 @@
 
 /* investors Section start */
 .investorsSectionContainer {
-    max-width: 65%;
+    max-width: 75%;
     margin: auto;
     margin-top: 235px;
     margin-bottom: 190px;
@@ -182,7 +188,6 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 76px;
-    padding: 52px;
 }
 
 .investorsSectionContent .heading h1 {
@@ -198,10 +203,10 @@
 
 .investorsSectionContent .text p {
     color: var(--black-black-blue-24, #001C3D);
-    font-family: Poppins;
+    font-family: Poppins-500    ;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
+    font-style:normal;
+    font-weight: 500;
     line-height: normal;
     display: flex;
     justify-content: center;
@@ -212,6 +217,10 @@
 }
 
 /* investors Section start */
+
+
+
+
 
 
 /* responsive all content start */
