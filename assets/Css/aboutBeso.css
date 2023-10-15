@@ -203,10 +203,11 @@
     padding-top: 35px
 }
 
-.rightSideContent{
+.rightSideContent {
     display: flex;
     justify-content: end;
 }
+
 .rightSideContent img {
     width: 75%;
 
@@ -263,11 +264,13 @@
     gap: 16px;
     margin-top: 100px;
 }
+
 .ourTeamCardContent .card {
     border-radius: 6px;
-border: 1px solid #F0F0F0;
-background: var(--white-white, #FFF);
+    border: 1px solid #F0F0F0;
+    background: var(--white-white, #FFF);
 }
+
 .ourTeamCardContent .card img {
     width: 100%;
     padding-bottom: 24px;
@@ -344,14 +347,15 @@ background: var(--white-white, #FFF);
         gap: 45px;
     }
 }
-@media only screen and (max-width: 904px){
+
+@media only screen and (max-width: 904px) {
     .headerRightSideLinks ul {
         display: flex;
         justify-content: end;
         list-style: none;
         gap: 20px;
-    }    
-} 
+    }
+}
 
 @media only screen and (max-width: 840px) {
     .ourTeamCardContent {
@@ -395,14 +399,7 @@ background: var(--white-white, #FFF);
     }
 }
 
-@media only screen and (max-width: 699px) {
-    .headerRightSideLinks ul {
-        display: flex;
-        justify-content: end;
-        list-style: none;
-        gap: 7px;
-    }
-}
+
 
 @media only screen and (max-width: 730px) {
     .headerRightSideLinks ul li {
@@ -412,6 +409,15 @@ background: var(--white-white, #FFF);
 
     .headerRightSideLinks .hamburgerIcon {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .headerRightSideLinks ul {
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        gap: 7px;
     }
 }
 
@@ -428,6 +434,7 @@ background: var(--white-white, #FFF);
         padding-bottom: 8px;
     }
 
+
     .card-body .card-text {
         font-size: 27px;
         padding-bottom: 15px;
@@ -435,6 +442,28 @@ background: var(--white-white, #FFF);
 
     .card-body .card-second-text {
         font-size: 23px;
+    }
+
+    /* text font size */
+
+    .leftSideContent h1 {
+        color: var(--black-black-blue-24, #001C3D);
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .leftSideContent p {
+        color: #585858;
+        font-family: Inter;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        padding-bottom: 0px;
     }
 }
 
