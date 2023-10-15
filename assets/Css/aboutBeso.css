@@ -233,7 +233,7 @@
 }
 
 .ourTeamCardMeetOurTeamContent {
-    max-width: 50%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -288,15 +288,16 @@
 }
 
 .card-body .card-text {
-    color: var(--gray-gray-600, #5D5F61);
     text-align: center;
+    /* 187.5% */
+    padding-bottom: 32px;
+    color: var(--gray-gray-300, #AAAEB3);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    padding-bottom: 32px;
+    line-height: normal;
+
 }
 
 .card-body .card-second-text {
@@ -397,10 +398,12 @@
         line-height: 32px;
         padding-bottom: 43px;
     }
+
     #aboutBesoSectionContainer {
         max-width: 90%;
         margin: auto;
     }
+
     /* text font size */
 
     .leftSideContent h1 {
@@ -470,7 +473,7 @@
         font-size: 23px;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 220px) {}
