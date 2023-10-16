@@ -450,6 +450,16 @@
     line-height: 28px;
     /* 200% */
 }
+.quickLinksList a {
+    color: var(--gray-gray-020, #F9F9F9);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    /* 200% */
+}
 
 .quickLinksList,
 .aboutUsList,
