@@ -62,7 +62,6 @@
 .securityCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 24px;
 }
@@ -90,7 +89,6 @@
 .designCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 24px;
 }
@@ -118,7 +116,6 @@
 .userFriendlyCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 24px;
 }
@@ -203,8 +200,9 @@
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
 }
 
 
@@ -427,21 +425,17 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.quickLinksList,
-.aboutUsList,
-.contactsList h3 {
+.quickLinksList,.aboutUsList, h3 {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 28px;
     /* 155.556% */
 }
 
-.quickLinksList,
-.aboutUsList,
-.contactsList p {
+.quickLinksList, .aboutUsList p {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
     font-size: 14px;
@@ -450,6 +444,25 @@
     line-height: 28px;
     /* 200% */
 }
+.contactsList h3{
+    color: var(--gray-gray-020, #F9F9F9);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 155.556% */
+}
+.contactsList p{
+    color: var(--gray-gray-020, #F9F9F9);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 200% */
+}
+
 .quickLinksList a {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
@@ -615,7 +628,7 @@
         padding: 14px 14px;
     }
 
-    .SectionWIthFullImageContentBackGround{
+    .SectionWIthFullImageContentBackGround {
         display: block;
     }
 
@@ -693,7 +706,7 @@
         font-weight: 600;
         line-height: normal;
     }
-  
+
     .informationIconsContent {
         display: grid;
         grid-template-columns: 0.7fr;
@@ -702,6 +715,9 @@
         justify-content: center;
         margin-bottom: 50px;
     }
+    .howThisAppWorkContent h1 {
+        font-size: 49px;
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -709,7 +725,7 @@
         font-size: 40px;
     }
 
-   
+
 
     .firstBottomImage img {
         max-width: 750%;
@@ -735,6 +751,11 @@
     .leftsideWithButtonGetstarted a button {
         padding: 10px 10px;
     }
+
+    .howThisAppWorkContent h1 {
+        font-size: 41px;
+    }
+    
 
 }
 

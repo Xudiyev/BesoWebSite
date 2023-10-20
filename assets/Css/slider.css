@@ -103,6 +103,7 @@
 .screenshotsContent {
     width: 50%;
     margin: auto;
+    margin-top: 50px;
 }
 
 .screenshotsContent h1 {
