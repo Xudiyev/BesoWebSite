@@ -15,7 +15,7 @@
 
 .screenshotsSlickSliderContent {
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 0.8fr 2fr;
 }
 
 
