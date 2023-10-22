@@ -73,8 +73,9 @@
 
 .headerRightSideLinks .hamburgerIcon {
     display: none;
-    margin-top: 2px;
+    color: white;
     margin-right: 5px;
+    font-size: 22px;
 }
 
 /* responsive hamburger button start */
