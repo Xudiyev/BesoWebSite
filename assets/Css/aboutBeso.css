@@ -399,11 +399,6 @@
         padding-bottom: 43px;
     }
 
-    #aboutBesoSectionContainer {
-        max-width: 90%;
-        margin: auto;
-    }
-
     /* text font size */
 
     .leftSideContent h1 {
@@ -449,6 +444,12 @@
         gap: 7px;
     }
 }
+@media only screen and (max-width:620px) {
+    .ourTeamCardMeetOurTeamContent h1 {
+        font-size: 40px;
+        
+    }
+}
 
 @media only screen and (max-width: 490px) {
     .ourTeamCardContent {
@@ -474,6 +475,12 @@
     }
 
 
+}
+@media only screen and (max-width:420px) {
+    .ourTeamCardMeetOurTeamContent h1 {
+        font-size: 28px;
+        
+    }
 }
 
 @media only screen and (max-width: 220px) {}
