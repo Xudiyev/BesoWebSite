@@ -674,7 +674,25 @@
         padding-bottom: 30px;
         gap: 50px;
     }
-
+   
+    .whyBesoContent h1 {
+        font-size: 36px;
+    }
+    .whyBesoContent p {
+        color: var(--gray-gray-450, #7F8285);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 160% */
+        padding-top: 0px;
+    }
+    .whyBesoIconcontent{
+        padding-top: 30px;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width: 391px) {
@@ -721,9 +739,7 @@
 }
 
 @media only screen and (max-width: 330px) {
-    .whyBesoContent h1 {
-        font-size: 40px;
-    }
+    
 
 
 

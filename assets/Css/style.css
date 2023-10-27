@@ -130,6 +130,9 @@
     flex-direction: row;
 
 }
+.js-navbar-list{
+    display: none;
+}
 
 .globusdownList {
     position: absolute;
@@ -412,11 +415,12 @@
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
         width: 100%;
-        font-size: 45px;
+        font-size: 29px;
     }
 
     .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
         width: 100%;
+        font-size: 16px;
 
     }
 
@@ -426,30 +430,16 @@
 
     .contentWithMobileImg-rightSide .iphoneImageUnderHeader {
         width: 88%;
+        margin-top: 35px;
     }
     .contentWithMobileImg-LeftSide {
         position: relative;
         margin-top: 0px;
     }
+    
 
 }
 
-@media only screen and (max-width: 220px) {
-    .contentWithMobileImg-LeftSide-wordsAndLlinks h1 {
-        width: 60%;
-        font-size: 33px;
 
-    }
-
-    .contentWithMobileImg-LeftSide-wordsAndLlinks h5 {
-        width: 75%;
-
-    }
-
-    .contentWithMobileImg-LeftSide-androidAndAppleButtons button {
-        width: 155px;
-    }
-
-}
 
 /* responsive all content start */
