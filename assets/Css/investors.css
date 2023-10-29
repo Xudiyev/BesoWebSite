@@ -301,7 +301,7 @@
     .investorsSectionContent .heading h1 {
         color: var(--black-black-blue-24, #001C3D);
         font-family: Poppins;
-        font-size: 56px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -312,7 +312,7 @@
     .investorsSectionContent .text p {
         color: var(--black-black-blue-24, #001C3D);
         font-family: Poppins;
-        font-size: 24px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;

@@ -59,7 +59,7 @@
 .tranding-slider-control {
     position: relative;
     left: 2rem;
-    bottom: 2rem;
+    bottom: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +131,7 @@
 .tranding-slider-control .swiper-button-prev {
     width: 36px;
     height: 36px;
-    left: 43.5% !important;
+    left: 43.1% !important;
 
 }
 
@@ -237,7 +237,7 @@
 
     .tranding-slider-control .swiper-button-prev {
 
-        left: 38.5% !important;
+        left: 37.5% !important;
 
     }
 
@@ -267,9 +267,15 @@
         font-size: 40px;
     }
 
+    .tranding-slider-control .swiper-button-next {
+        width: 36px;
+        height: 36px;
+        left: 48.5% !important;
+    }
+
     .tranding-slider-control .swiper-button-prev {
 
-        left: 32.5% !important;
+        left: 33.5% !important;
 
     }
 }
@@ -316,15 +322,16 @@
     }
 
     .screenshotsContent h1 {
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .screenshotsContent p {
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .container {
-        max-width: 24rem;
+        max-width: 19rem;
         margin: 0 auto;
     }
 
@@ -343,22 +350,23 @@
 
     .tranding-slider-control .swiper-button-prev {
 
-        left: 25.5% !important;
+        left: 20% !important;
 
     }
 
 
 }
 
-@media only screen and (max-width: 256px) {
-    .screenshotsContent h1 {
-        font-size: 32px;
+@media only screen and (max-width: 289px) {
+    .container {
+        max-width: 14rem;
+        margin: 0 auto;
     }
 
     
 }
 
-.tranding-slider {
+/* .tranding-slider {
     position: relative;
 }
 
@@ -367,4 +375,4 @@
     top: 21px;
     left: 39.5%;
     width: 21%;
-}
+} */

@@ -425,7 +425,9 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.quickLinksList,.aboutUsList, h3 {
+.quickLinksList,
+.aboutUsList,
+h3 {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
     font-size: 18px;
@@ -435,7 +437,8 @@
     /* 155.556% */
 }
 
-.quickLinksList, .aboutUsList p {
+.quickLinksList,
+.aboutUsList p {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
     font-size: 14px;
@@ -444,7 +447,8 @@
     line-height: 28px;
     /* 200% */
 }
-.contactsList h3{
+
+.contactsList h3 {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
     font-size: 18px;
@@ -453,7 +457,8 @@
     line-height: 28px;
     /* 155.556% */
 }
-.contactsList p{
+
+.contactsList p {
     color: var(--gray-gray-020, #F9F9F9);
     font-family: Inter;
     font-size: 14px;
@@ -531,7 +536,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 62px;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .informationIconsContent {
@@ -621,7 +626,7 @@
     }
 
     .leftsideWithButtonGetstarted p {
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .leftsideWithButtonGetstarted a button {
@@ -674,10 +679,11 @@
         padding-bottom: 30px;
         gap: 50px;
     }
-   
+
     .whyBesoContent h1 {
         font-size: 36px;
     }
+
     .whyBesoContent p {
         color: var(--gray-gray-450, #7F8285);
         text-align: center;
@@ -689,9 +695,24 @@
         /* 160% */
         padding-top: 0px;
     }
-    .whyBesoIconcontent{
+
+    .whyBesoIconcontent {
         padding-top: 30px;
         grid-template-columns: 1fr;
+    }
+
+    .informationAbputaAppHowThisWork {
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (max-width:424px) {
+    .informationIconsContent {
+        display: grid;
+        grid-template-columns: 0.7fr;
+        grid-column-gap: 65px;
+        grid-row-gap: 39px;
+        justify-content: center;
     }
 }
 
@@ -725,21 +746,29 @@
         line-height: normal;
     }
 
-    .informationIconsContent {
-        display: grid;
-        grid-template-columns: 0.7fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 39px;
-        justify-content: center;
-        margin-bottom: 50px;
-    }
+
     .howThisAppWorkContent h1 {
-        font-size: 49px;
+        font-size: 36px;
+        padding-bottom: 24px;
     }
+
+    .howThisAppWorkContent p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .informationIconsContent p {
+        font-size: 16px;
+    }
+    .SectionWIthFullImageContentBackGround {
+        padding: 35px;
+    }
+
+
 }
 
 @media only screen and (max-width: 330px) {
-    
+
 
 
 
@@ -771,7 +800,7 @@
     .howThisAppWorkContent h1 {
         font-size: 41px;
     }
-    
+
 
 }
 

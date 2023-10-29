@@ -400,31 +400,7 @@
         padding-bottom: 43px;
     }
 
-    /* text font size */
-
-    .leftSideContent h1 {
-        color: var(--black-black-blue-24, #001C3D);
-        font-family: Inter;
-        font-size: 45px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-
-    }
-
-    .leftSideContent p {
-        color: #585858;
-        font-family: Inter;
-        font-size: 19px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 22px;
-        padding-bottom: 0px;
-        padding-top: 25px;
-    }
 }
-
-
 
 @media only screen and (max-width: 730px) {
     .headerRightSideLinks ul li {
@@ -445,10 +421,11 @@
         gap: 7px;
     }
 }
+
 @media only screen and (max-width:620px) {
     .ourTeamCardMeetOurTeamContent h1 {
         font-size: 40px;
-        
+
     }
 }
 
@@ -460,16 +437,9 @@
         margin-top: 100px;
     }
 
-    .card-body h4 {
-        font-size: 35px;
-        padding-bottom: 8px;
-    }
 
 
-    .card-body .card-text {
-        font-size: 27px;
-        padding-bottom: 15px;
-    }
+
 
     .card-body .card-second-text {
         font-size: 23px;
@@ -477,10 +447,38 @@
 
 
 }
+
 @media only screen and (max-width:420px) {
     .ourTeamCardMeetOurTeamContent h1 {
         font-size: 28px;
-        
+
+    }
+
+    /* text font size */
+
+    .leftSideContent h1 {
+        font-size: 36px;
+
+    }
+
+    .leftSideContent p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+
+    .ourTeamCardMeetOurTeamContent p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card-body h4 {
+        font-size: 24px;
+    }
+
+    .card-body .card-text {
+        font-size: 18px;
+        padding-bottom: 15px;
     }
 }
 
