@@ -178,15 +178,15 @@
 /* <!-- Section-with-header-content-end --> */
 
 
-/* investors Section start */
-.termsACContainer {
+/* privacy Section start */
+.privacyACContainer {
     max-width: 75%;
     height: 100%;
     margin: auto;
 
 }
 
-.termsACContent {
+.privacyACContent {
     margin-top: 60px;
     margin-bottom: 120px;
 }
@@ -197,7 +197,7 @@
     gap: 30px;
 } */
 
-.Basic-Pre-Contractual-Content {
+.Privacy-and-Data-Retention-Policy {
     max-width: 75%;
     height: 100%;
     margin: auto;
@@ -206,7 +206,7 @@
     align-items: center;
 }
 
-.Basic-Pre-Contractual-Content h1 {
+.Privacy-and-Data-Retention-Policy h1 {
     color: #000;
     font-family: Inter;
     font-size: 28px;
@@ -217,7 +217,7 @@
     padding-bottom: 32px;
 }
 
-.Basic-Pre-Contractual-Content p {
+.Privacy-and-Data-Retention-Policy p {
     color: #000;
     font-family: Inter;
     font-size: 20px;
@@ -233,15 +233,12 @@
 }
 
 
-.Basic-Pre-contractual-Information {
-    display: grid;
-    grid-template-rows: repeat(2, 0.5fr);
-    margin: 24px 0px;
+.Privacy-and-Data-Retention-Policy-Information {
+    margin: 55px 0px;
     align-items: flex-start;
-    gap: 20px;
 }
 
-.Basic-Pre-contractual-Information h1 {
+.Privacy-and-Data-Retention-Policy-Information h1 {
     color: #000;
     font-family: Inter;
     font-size: 20px;
@@ -251,7 +248,7 @@
     letter-spacing: 0.2px;
 }
 
-.Basic-Pre-contractual-Information p {
+.Privacy-and-Data-Retention-Policy-Information p {
     align-self: stretch;
     color: rgba(0, 0, 0, 0.80);
     font-family: Inter;
@@ -263,149 +260,28 @@
     letter-spacing: 0.16px;
 }
 
-.name-and-Address {
-    display: grid;
-    grid-template-rows: repeat(2, 0.5fr);
-    gap: 20px;
-}
 
-.name-and-Address h1 {
-    color: #000;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.2px;
-}
-
-.name-and-Address p {
-    align-self: stretch;
-    color: rgba(0, 0, 0, 0.80);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.16px;
-}
-
-.Legally-Authorised-representatives-of-Beso {
-    display: grid;
-    grid-template-rows: repeat(2, 0.5fr);
-    gap: 20px;
-    padding: 20px 0px;
-}
-
-.Legally-Authorised-representatives-of-Beso h1 {
-    color: #000;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.2px;
-}
-
-.Legally-Authorised-representatives-of-Beso p {
-    align-self: stretch;
-    color: rgba(0, 0, 0, 0.80);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.16px;
-}
-
-.Activity-of-Beso {
-    display: grid;
-    grid-template-rows: repeat(2, 0.5fr);
-    gap: 20px;
-    padding: 20px 0px;
-}
-
-.Activity-of-Beso h1 {
-    color: #000;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.2px;
-}
-
-.Activity-of-Beso p {
-    align-self: stretch;
-    color: rgba(0, 0, 0, 0.80);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.16px;
-}
-
-.Tax-Information {
-    display: grid;
-    grid-template-rows: repeat(2, 0.5fr);
-    gap: 20px;
-    padding: 20px 0px;
-}
-
-.Tax-Information h1 {
-    color: #000;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.2px;
-}
-
-.Tax-Information p {
-    align-self: stretch;
-    color: rgba(0, 0, 0, 0.80);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.16px;
-}
-
-/* secon heading start */
-.General-Terms-and-Conditions-of-Beso {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 24px;
-}
-
-.General-Terms-and-Conditions-of-Beso h1 {
-    color: #000;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.2px;
-}
-
-.Scope {
+.Controller-Processors-and-Separate-Controllers {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
+}
+.privacyTheSameFonts{
     padding: 24px 0px;
 }
-
-.Scope h1 {
+.privacyTheSameFonts a{
+    align-self: stretch;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.16px;
+}
+.privacyTheSameFonts h1 {
     color: #000;
     font-family: Inter;
     font-size: 20px;
@@ -413,10 +289,19 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.2px;
-    padding-bottom: 20px;
+}
+.privacyTheSameFonts h2 {
+    align-self: stretch;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.16px;
 }
 
-.Scope p {
+.privacyTheSameFonts p {
     align-self: stretch;
     color: rgba(0, 0, 0, 0.80);
     font-family: Inter;
@@ -427,35 +312,8 @@
     /* 150% */
     letter-spacing: 0.16px;
 }
-.Object-of-service ,.theSameClasses{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 24px 0px;
-    gap: 20px;
-}
-.Object-of-service, .theSameClasses h1{
-    color: #000;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.2px;
-}
-.Object-of-service,.theSameClasses p{
-    align-self: stretch;
-    color: rgba(0, 0, 0, 0.80);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    /* 150% */
-    letter-spacing: 0.16px; 
-}
 
-.Requirements-and-Supported-Smartphones ul li{
+.privacyTheSameFonts ul li {
     align-self: stretch;
     color: rgba(0, 0, 0, 0.80);
     font-family: Inter;
@@ -465,8 +323,9 @@ letter-spacing: 0.2px;
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.16px;
-    margin-left: 17px;
+    margin-left: 15px;
 }
+
 
 
 /* second heading end */
