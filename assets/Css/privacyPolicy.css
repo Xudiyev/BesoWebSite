@@ -326,7 +326,14 @@
     margin-left: 15px;
 }
 
-
+.dividerWithStars{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.linkForDeleteAcc{
+    
+}
 
 /* second heading end */
 
